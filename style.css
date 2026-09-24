@@ -3,21 +3,69 @@ body {
     margin: 0;
     background-color: #f4f6f8;
     color: #222;
-    text-align: center;
+    background: red !important;
 }
 
-h1 {
+header {
     background-color: #1f2937;
     color: white;
-    margin: 0;
+    text-align: center;
     padding: 30px;
 }
 
-h2 {
-    margin-top: 50px;
-    color: #1f2937;
+main {
+    padding: 30px;
 }
 
-p {
-    font-size: 18px;
+.registration {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.registration h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #374151;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
 }
