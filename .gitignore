@@ -1,1 +1,5 @@
 node_modules/
+gaella1.db
+gaella1.db-shm
+gaella1.db-wal
+.env

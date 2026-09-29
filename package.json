@@ -2,9 +2,9 @@
   "name": "gaella1",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/umutoniwase-gaella/GAELLA1#readme",
   "dependencies": {
+    "better-sqlite3": "^13.0.3",
     "express": "^5.2.1"
   }
 }
