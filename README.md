@@ -1,90 +1,89 @@
-# GAELLA1 – Student Management System
+# GAELLA1 — Student Management System
 
-## Project Description
+## About the Project
 
-GAELLA1 is a Student Management System developed to manage student registration and information.
+GAELLA1 is a student management web application developed as a practical Software Development project. It helps users manage student records through a simple web interface connected to a backend and database.
 
-The system allows users to register students, view registered students, search for students, edit student information, and delete student records.
-
-The project demonstrates frontend, backend, database, and GitHub skills.
+This project demonstrates my ability to build a web application, connect a frontend to a backend API, and store information in a database.
 
 ## Features
 
-* Student registration
-* Display registered students
-* Search students
-* Edit student information
-* Delete student records
-* Data stored in a SQLite database
-* Frontend connected to a backend API
-* REST API for student management
+- Add and register student records
+- View saved student records
+- Edit existing records
+- Delete student records
+- Search for students
+- Store student information in an SQLite database
 
 ## Technologies Used
 
-* HTML
-* CSS
-* JavaScript
-* Node.js
-* Express.js
-* SQLite
-* Git
-* GitHub
+- **HTML5** — page structure
+- **CSS3** — styling and layout
+- **JavaScript** — frontend interactions
+- **Node.js** — backend runtime
+- **Express.js** — server and API routes
+- **SQLite** — database storage
+- **Git and GitHub** — version control and source code hosting
 
-## Project Structure
+## How It Works
 
-```text
-GAELLA1/
-├── index.html
-├── style.css
-├── script.js
-├── server.js
-├── database.js
-├── package.json
-├── package-lock.json
-├── .gitignore
-└── README.md
-```
+The frontend allows users to interact with student records. JavaScript sends requests to the backend API, which uses Express.js to process operations and SQLite to store and retrieve student information.
 
-## How to Run the Project
+## Run the Project Locally
 
-### 1. Clone the repository
+### Requirements
 
-```bash
-git clone https://github.com/Umutoniwase-gaella/GAELLA1.git
-```
+- Node.js and npm installed
+- Git installed (optional, for cloning the repository)
 
-### 2. Enter the project folder
+### Installation
 
-```bash
-cd GAELLA1
-```
+1. Clone the repository:
 
-### 3. Install dependencies
+   ```bash
+   git clone https://github.com/Umutoniwase-gaella/GAELLA1.git
+   ```
 
-```bash
-npm install
-```
+2. Enter the project folder:
 
-### 4. Start the server
+   ```bash
+   cd GAELLA1
+   ```
 
-```bash
-node server.js
-```
+3. Install dependencies:
 
-### 5. Open the system
+   ```bash
+   npm install
+   ```
 
-Open your browser and visit:
+4. Start the application:
 
-```text
-http://localhost:3000
-```
+   ```bash
+   node server.js
+   ```
 
-## Project Goal
+5. Open this address in your browser:
 
-The goal of GAELLA1 is to demonstrate practical skills in building a complete web-based Student Management System using frontend technologies, a Node.js backend, and a SQLite database.
+   http://localhost:3000
 
-## Developer
+## Skills Demonstrated
 
-**Gaella**
+- Frontend web development
+- Backend development with Node.js and Express.js
+- REST API integration
+- Database operations with SQLite
+- Debugging and problem-solving
+- Version control with Git and GitHub
 
-Software Development Student
+## Future Improvements
+
+- Add user authentication and authorization
+- Improve form validation and error handling
+- Add student details such as attendance and academic results
+- Improve accessibility and mobile responsiveness
+
+## Author
+
+Software Development student interested in software engineering, application development, and cybersecurity.
+
+GitHub: https://github.com/Umutoniwase-gaella
